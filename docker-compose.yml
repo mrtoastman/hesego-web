@@ -1,0 +1,30 @@
+version: '3.1' 
+services:
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"
+  db:
+    image: mysql
+    volumes:
+      - hesego:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/db_p
+      MYSQL_PASSWORD_FILE: /run/secrets/db_p
+    secrets:
+      - db_p
+  wordpress:
+    build: ./content
+    ports:
+      - 80:80
+    volumes:
+    - ./content/wp-content:/var/www/html/wp-content
+    environment:
+      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/db_p
+      MYSQL_PASSWORD_FILE: /run/secrets/db_p
+
+secrets:
+  db_p:
+    file: ./secrets/id.txt
+volumes:
+    hesego:

@@ -1,0 +1,1 @@
+import{c as o}from"./p-35c4916d.js";const c=o((()=>({cart:{open:!1}})),((o,c)=>JSON.stringify(o)!==JSON.stringify(c)));export{c as u};

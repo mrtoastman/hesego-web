@@ -1,0 +1,1 @@
+import{r,h as s}from"./p-dfbe004d.js";const e=class{constructor(e){r(this,e)}render(){return s("div",{part:"base",class:"menu-divider",role:"separator","aria-hidden":"true"})}};e.style=":host{display:block}.menu-divider{border-top:solid 1px var(--sc-panel-border-color);margin:var(--sc-spacing-x-small) 0}";export{e as sc_menu_divider};

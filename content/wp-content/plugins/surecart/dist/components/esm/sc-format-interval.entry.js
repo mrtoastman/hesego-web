@@ -1,0 +1,1 @@
+import{r as registerInstance}from"./index-fd4790f6.js";import{t as translateInterval}from"./price-a4ea8b5f.js";const ScFormatInterval=class{constructor(t){registerInstance(this,t),this.value=0,this.interval="",this.every="/",this.fallback=""}render(){return translateInterval(this.value,this.interval,` ${this.every}`,this.fallback)}};export{ScFormatInterval as sc_format_interval};

@@ -1,0 +1,1 @@
+const t=t=>{let l;try{l=new URL(t)}catch(t){return!1}return"http:"===l.protocol||"https:"===l.protocol},l=(t,l,o)=>(t||[]).sort(((t,n)=>-1===o.indexOf(null==t?void 0:t[l])?1:-1===o.indexOf(null==n?void 0:n[l])?-1:o.indexOf(null==t?void 0:t[l])-o.indexOf(null==n?void 0:n[l])));export{t as i,l as s};

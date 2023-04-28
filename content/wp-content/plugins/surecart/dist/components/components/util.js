@@ -1,0 +1,1 @@
+const isValidURL=t=>{let o;try{o=new URL(t)}catch(t){return!1}return"http:"===o.protocol||"https:"===o.protocol},sortByArray=(t,o,r)=>(t||[]).sort(((t,i)=>-1===r.indexOf(null==t?void 0:t[o])?1:-1===r.indexOf(null==i?void 0:i[o])?-1:r.indexOf(null==t?void 0:t[o])-r.indexOf(null==i?void 0:i[o])));export{isValidURL as i,sortByArray as s};

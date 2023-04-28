@@ -1,0 +1,1 @@
+"use strict";const maybeConvertAmount=(e,o)=>isZeroDecimal(o)?e:e/100,isZeroDecimal=e=>{var o;return["bif","clp","djf","gnf","jpy","kmf","krw","xaf"].includes(null===(o=null==e?void 0:e.toLowerCase)||void 0===o?void 0:o.call(e))};exports.isZeroDecimal=isZeroDecimal,exports.maybeConvertAmount=maybeConvertAmount;

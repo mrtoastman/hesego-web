@@ -1,0 +1,1 @@
+"use strict";const index=require("./index-f6f80680.js"),uiStore=index.createStore((()=>({cart:{open:!1}})),((e,i)=>JSON.stringify(e)!==JSON.stringify(i)));exports.uiStore=uiStore;

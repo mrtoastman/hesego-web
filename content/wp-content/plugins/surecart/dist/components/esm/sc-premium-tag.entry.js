@@ -1,0 +1,1 @@
+import{r as registerInstance,h}from"./index-fd4790f6.js";const ScPremiumTag=class{constructor(s){registerInstance(this,s),this.size="small"}render(){return h("sc-tag",{type:"success",size:this.size},wp.i18n.__("Premium","surecart"))}};export{ScPremiumTag as sc_premium_tag};

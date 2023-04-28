@@ -1,0 +1,1 @@
+import{createStore}from"@stencil/store";export default createStore((()=>({cart:{open:!1}})),((t,e)=>JSON.stringify(t)!==JSON.stringify(e)));

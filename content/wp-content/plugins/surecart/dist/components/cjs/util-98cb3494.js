@@ -1,0 +1,1 @@
+"use strict";const isValidURL=r=>{let t;try{t=new URL(r)}catch(r){return!1}return"http:"===t.protocol||"https:"===t.protocol},sortByArray=(r,t,o)=>(r||[]).sort(((r,i)=>-1===o.indexOf(null==r?void 0:r[t])?1:-1===o.indexOf(null==i?void 0:i[t])?-1:o.indexOf(null==r?void 0:r[t])-o.indexOf(null==i?void 0:i[t])));exports.isValidURL=isValidURL,exports.sortByArray=sortByArray;

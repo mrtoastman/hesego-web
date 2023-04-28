@@ -1,0 +1,1 @@
+import{r as registerInstance,h,H as Host}from"./index-fd4790f6.js";const scTableHeadCss=":host{display:table-header-group}::slotted(*){display:table-row}",ScTable=class{constructor(s){registerInstance(this,s)}render(){return h(Host,null,h("slot",null))}};ScTable.style=scTableHeadCss;export{ScTable as sc_table_head};

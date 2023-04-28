@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const index=require("./index-9c866aeb.js"),ScPremiumTag=class{constructor(e){index.registerInstance(this,e),this.size="small"}render(){return index.h("sc-tag",{type:"success",size:this.size},wp.i18n.__("Premium","surecart"))}};exports.sc_premium_tag=ScPremiumTag;

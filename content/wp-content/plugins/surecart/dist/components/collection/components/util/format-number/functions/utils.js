@@ -1,0 +1,1 @@
+export const maybeConvertAmount=(o,e)=>isZeroDecimal(e)?o:o/100;export const isZeroDecimal=o=>{var e;return["bif","clp","djf","gnf","jpy","kmf","krw","xaf"].includes(null===(e=null==o?void 0:o.toLowerCase)||void 0===e?void 0:e.call(o))};

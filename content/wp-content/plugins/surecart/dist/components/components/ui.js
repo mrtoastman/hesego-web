@@ -1,0 +1,1 @@
+import{c as createStore}from"./index4.js";const uiStore=createStore((()=>({cart:{open:!1}})),((r,t)=>JSON.stringify(r)!==JSON.stringify(t)));export{uiStore as u};

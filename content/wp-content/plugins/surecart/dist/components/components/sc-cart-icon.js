@@ -1,0 +1,1 @@
+import{S as ScCartIcon$1,d as defineCustomElement$1}from"./sc-cart-icon2.js";const ScCartIcon=ScCartIcon$1,defineCustomElement=defineCustomElement$1;export{ScCartIcon,defineCustomElement};

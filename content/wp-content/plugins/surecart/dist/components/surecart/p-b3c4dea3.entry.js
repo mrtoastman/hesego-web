@@ -1,0 +1,1 @@
+import{r as s,h as r}from"./p-dfbe004d.js";const t=class{constructor(r){s(this,r),this.size="small"}render(){return r("sc-tag",{type:"success",size:this.size},wp.i18n.__("Premium","surecart"))}};export{t as sc_premium_tag};

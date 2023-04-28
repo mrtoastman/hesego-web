@@ -1,0 +1,1 @@
+import{r as s}from"./p-dfbe004d.js";import{t}from"./p-468023a1.js";const r=class{constructor(t){s(this,t),this.value=0,this.interval="",this.every="/",this.fallback=""}render(){return t(this.value,this.interval,` ${this.every}`,this.fallback)}};export{r as sc_format_interval};

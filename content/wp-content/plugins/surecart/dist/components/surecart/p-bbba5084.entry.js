@@ -1,0 +1,1 @@
+import{r as s,h as t,H as r}from"./p-dfbe004d.js";const e=class{constructor(t){s(this,t)}render(){return t(r,null,t("slot",null))}};e.style=":host{display:table-header-group}::slotted(*){display:table-row}";export{e as sc_table_head};
